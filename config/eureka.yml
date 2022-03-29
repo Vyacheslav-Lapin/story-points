@@ -1,16 +1,15 @@
 spring:
-  application.name: Eureka
-#  cloud.config.import-check.enabled: false
-
-  cloud:
-    config:
-      enabled: false
-      import-check:
-        enabled: false
+  application.name: eureka
+  cloud.config.import-check.enabled: false
 
 server.port: 8761
 
-eureka.client:
-  fetchRegistry: false
-  registerWithEureka: false
+#eureka.client:
+#  fetchRegistry: false
+#  registerWithEureka: false
 
+eureka:
+  server.renewal-threshold-update-interval-ms: 1000
+  instance:
+    lease-expiration-duration-in-seconds: 2
+    lease-renewal-interval-in-seconds: 1

@@ -15,11 +15,6 @@
       "type": "ru.vlapin.experiments.storypoints.model.JavaConfigBasedSetterPropertiesPlaceholderExample",
       "sourceType": "ru.vlapin.experiments.storypoints.StoryPointsApplication",
       "sourceMethod": "mySetterProperties2()"
-    },
-    {
-      "name": "story-points-service",
-      "type": "ru.vlapin.experiments.storypoints.service.StoryPointsServiceImpl",
-      "sourceType": "ru.vlapin.experiments.storypoints.service.StoryPointsServiceImpl"
     }
   ],
   "properties": [
@@ -52,11 +47,6 @@
       "type": "java.lang.Integer",
       "description": "My port",
       "sourceType": "ru.vlapin.experiments.storypoints.model.AnnotationBasedSetterPropertiesPlaceholderExampleImpl"
-    },
-    {
-      "name": "story-points-service.rest-template",
-      "type": "org.springframework.web.client.RestTemplate",
-      "sourceType": "ru.vlapin.experiments.storypoints.service.StoryPointsServiceImpl"
     }
   ],
   "hints": []

@@ -45,7 +45,8 @@ final class StoryPointsServiceImpl implements StoryPointsService {
 
     return Objects.requireNonNull(
         restTemplate.getForEntity(
-            "http://localhost:8080/sp2hh/%d".formatted(storyPointVariant),
+            "http://developer/sp2hh/%d".formatted(storyPointVariant),
+//            "http://localhost:8080/sp2hh/%d".formatted(storyPointVariant),
             Integer.class)
             .getBody());
   }

@@ -1,0 +1,63 @@
+{
+  "groups": [
+    {
+      "name": "mail.credentials",
+      "type": "ru.vlapin.experiments.storypoints.service.AnnotationBasedImmutablePropertiesPlaceholderExampleImpl",
+      "sourceType": "ru.vlapin.experiments.storypoints.service.AnnotationBasedImmutablePropertiesPlaceholderExampleImpl"
+    },
+    {
+      "name": "my-properties",
+      "type": "ru.vlapin.experiments.storypoints.model.AnnotationBasedSetterPropertiesPlaceholderExampleImpl",
+      "sourceType": "ru.vlapin.experiments.storypoints.model.AnnotationBasedSetterPropertiesPlaceholderExampleImpl"
+    },
+    {
+      "name": "my-properties2",
+      "type": "ru.vlapin.experiments.storypoints.model.JavaConfigBasedSetterPropertiesPlaceholderExample",
+      "sourceType": "ru.vlapin.experiments.storypoints.StoryPointsApplication",
+      "sourceMethod": "mySetterProperties2()"
+    },
+    {
+      "name": "story-points-service",
+      "type": "ru.vlapin.experiments.storypoints.service.StoryPointsServiceImpl",
+      "sourceType": "ru.vlapin.experiments.storypoints.service.StoryPointsServiceImpl"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mail.credentials.auth-method",
+      "type": "java.lang.String",
+      "description": "Auth method",
+      "sourceType": "ru.vlapin.experiments.storypoints.service.AnnotationBasedImmutablePropertiesPlaceholderExampleImpl"
+    },
+    {
+      "name": "mail.credentials.password",
+      "type": "java.lang.String",
+      "description": "pwd",
+      "sourceType": "ru.vlapin.experiments.storypoints.service.AnnotationBasedImmutablePropertiesPlaceholderExampleImpl"
+    },
+    {
+      "name": "mail.credentials.username",
+      "type": "java.lang.String",
+      "description": "login",
+      "sourceType": "ru.vlapin.experiments.storypoints.service.AnnotationBasedImmutablePropertiesPlaceholderExampleImpl"
+    },
+    {
+      "name": "my-properties.host",
+      "type": "java.lang.String",
+      "description": "My hostname",
+      "sourceType": "ru.vlapin.experiments.storypoints.model.AnnotationBasedSetterPropertiesPlaceholderExampleImpl"
+    },
+    {
+      "name": "my-properties.port",
+      "type": "java.lang.Integer",
+      "description": "My port",
+      "sourceType": "ru.vlapin.experiments.storypoints.model.AnnotationBasedSetterPropertiesPlaceholderExampleImpl"
+    },
+    {
+      "name": "story-points-service.rest-template",
+      "type": "org.springframework.web.client.RestTemplate",
+      "sourceType": "ru.vlapin.experiments.storypoints.service.StoryPointsServiceImpl"
+    }
+  ],
+  "hints": []
+}

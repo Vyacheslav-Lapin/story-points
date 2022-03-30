@@ -4,12 +4,11 @@ spring:
 
 server.port: 8761
 
-#eureka.client:
-#  fetchRegistry: false
-#  registerWithEureka: false
-
 eureka:
   server.renewal-threshold-update-interval-ms: 1000
   instance:
     lease-expiration-duration-in-seconds: 2
     lease-renewal-interval-in-seconds: 1
+#  client:
+#    fetchRegistry: false
+#    registerWithEureka: false

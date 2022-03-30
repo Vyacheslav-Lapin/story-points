@@ -1,4 +1,4 @@
-spring.application.name: core
+spring.application.name: story-points
 
 mail.credentials:
   authMethod: basic

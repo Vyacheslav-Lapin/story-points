@@ -1,11 +1,10 @@
 package ru.vlapin.experiments.storypoints.service.jsonplaceholder;
 
 import java.util.List;
-import org.jetbrains.annotations.NotNull;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestParam;
 import ru.vlapin.experiments.storypoints.model.jsonplaceholder.User;
 
 @FeignClient(
@@ -18,5 +17,5 @@ public interface UserService {
   List<User> all();
 
   @GetMapping("{id}")
-  User findById(@PathVariable Long id);
+  ResponseEntity<User> findById(@PathVariable Long id);
 }

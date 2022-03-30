@@ -1,5 +1,7 @@
 /logs/
 
-/target/
+/**/target/
 /pom.xml.versionsBackup
 
+/developer/target/
+/core/target/
